@@ -4,7 +4,7 @@ room_pressure = 101.325; %normal air pressure in Pa.
 
 air_density = 1.225; % kg/m3
 
-tracheal_area = 2.9e-6; % m^2 from CT scan measurment
+tracheal_area = 0.95e-6; % m^2 from CT scan measurment
 
 tracheal_diameter = 2 * sqrt(tracheal_area/pi);
 glottal_diameter = 2 * sqrt(glottal_area/pi);

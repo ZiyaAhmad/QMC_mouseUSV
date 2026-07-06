@@ -2,7 +2,7 @@ function jet_speed = jet_speed(glottal_area, airflow_or_pressure, f_or_p_flag)
 
 if(f_or_p_flag == 'p')
     pressure = airflow_or_pressure;
-    tracheal_area = 2.9e-6; %m^2
+    tracheal_area = 0.95e-6; %m^2
     tracheal_diameter = 2 * sqrt(tracheal_area/pi);
     glottal_diameter = 2 * sqrt(glottal_area/pi);
 
