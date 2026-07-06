@@ -1,6 +1,4 @@
-# QMC_ratUSV
-Quantitative motor control model of USV production in rats
+# QMC_mouseUSV
+Quantitative motor control model of USV production in mice
 
-As seen in: https://link.springer.com/epdf/10.1186/s12915-021-01185-z
-
-This repo will be updated with more descriptions and example Live Script in the nearish future.
+Altered from the Hakansson et al. model for rats seen in: https://link.springer.com/epdf/10.1186/s12915-021-01185-z
