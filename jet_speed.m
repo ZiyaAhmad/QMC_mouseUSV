@@ -1,4 +1,4 @@
-function jet_speed = jet_speed(glottal_area, airflow_or_pressure, f_or_p_flag)
+function jet_speed = jet_speed(glottal_area, airflow_or_pressure, f_or_p_flag) 
 
 if(f_or_p_flag == 'p')
     pressure = airflow_or_pressure;
