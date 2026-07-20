@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data
+*.wav
+*.mat
+*.h5
+*.csv
+data/
+
+# Models
+*.pt
+*.pth
+*.ckpt
+
+# Environment
+.env
+venv/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+env/
+ENV/
