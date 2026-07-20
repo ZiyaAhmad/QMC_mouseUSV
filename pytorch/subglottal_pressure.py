@@ -1,6 +1,5 @@
 import torch
 
-
 def subglottal_pressure(respiratory_muscle_activity):
     """
     Port of subglottal_pressure.m (mouse constants).
