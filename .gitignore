@@ -33,3 +33,7 @@ Thumbs.db
 .venv/
 env/
 ENV/
+
+# MATLAB/Octave tools
+octave-workspace
+#.asv
