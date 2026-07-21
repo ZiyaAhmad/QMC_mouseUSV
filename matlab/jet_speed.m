@@ -13,7 +13,7 @@ if(f_or_p_flag == 'p')
     air_density = 1.225; % kg/m3
     
     %calculated based on assumed no obstruction 
-    jet_speed = sqrt(2*(max(pressure - room_pressure,0.000001))/(air_density*(1 - beta^4)));
+    jet_speed = sqrt(2*(max(pressure - room_pressure,0.000001))./(air_density*(1 - beta.^4)));
     
 elseif (f_or_p_flag == 'f')
     airflow = airflow_or_pressure;
